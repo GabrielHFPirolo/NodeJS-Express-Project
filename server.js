@@ -1,6 +1,6 @@
 import express from 'express'
 import 'dotenv/config'
-import connectDb from "./database/mongo.js"
+import connectDb from "./src/database/mongo.js"
 
 const app = express()
 app.use(express.json())
